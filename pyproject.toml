@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adventlib"
+version = "0.0.1"
+
+[project.scripts]
+advent = 'adventlib.cli:cli'
+
+[tool]
